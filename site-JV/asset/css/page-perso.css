@@ -1,0 +1,310 @@
+/* cyrillic */
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/russoone/v14/Z9XUDmZRWg6M1LvRYsHOy8mJrrg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/russoone/v14/Z9XUDmZRWg6M1LvRYsHOwcmJrrg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/russoone/v14/Z9XUDmZRWg6M1LvRYsHOz8mJ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.tri{
+    width: 15px;
+}
+.navTop{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+}
+.navTopL{
+    display: flex;
+    align-items: center;
+}
+.linkNavTop{
+    display: flex;
+}
+.btn{
+    padding: 5px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Russo One', sans-serif; 
+}
+.btn:hover{
+    background-color: #9ba3f7;
+    border-radius: 30px;
+    box-shadow: 2px 3px 0 black;
+}
+.navTopR{
+    width: 20vw;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}    
+.icone{
+    width: 35px;
+    margin: 0 20px;
+    
+}
+.icone:hover{
+    transform:scale(1.35);
+    background-color: #9ba3f7;
+    border-radius: 50%;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6977e0;
+    width: 200px;
+    border-radius: 30px;
+    font-family: 'Russo One', sans-serif; 
+}
+.btn1:hover{
+    opacity: 0.7;
+}
+.navId{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+}
+.navId:hover{
+    background-color: #9ba3f7;
+    border-radius: 3px;
+}
+.navDown{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(224,89,129,1) 19%, rgba(117,79,238,1) 60%, rgba(252,70,107,1) 100%);;
+    display: flex; 
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listNavDown{
+    display: flex;
+}
+.listNavDown a{
+    color: white;
+}
+.btn2{
+    /*padding: 0 15px;*/
+    width:  130px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Russo One', sans-serif; 
+}
+.btn2:hover{
+    background-color:  #9ba3f7;
+    border-radius: 30px;
+}
+.btn3{
+    border-radius: 3px;
+    background-color: #ccc7c7;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0 20px;
+    font-family: 'Russo One', sans-serif; 
+}
+.btn3:hover{
+    background-color: #fc7979;
+    
+}
+.navDownR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    font-family: 'Russo One', sans-serif;  
+    font-size: 3rem;
+}
+#video{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.sectionCard{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    background: #3b3fa5;
+    padding: 100px 300px ;
+}
+.sectionCard > a > h2{
+    color: white;
+    font-family: 'Russo One', sans-serif;  
+    font-size: 3rem;
+    margin: auto;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+.card{
+    width: 380px;
+    height: 40vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px white;
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+#card1{
+    background: url('../img/zeldabotw.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#card2{
+    background: url('../img/bayonetta.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#card3{
+    background: url('../img/starfield.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Russo One', sans-serif;
+    background: #1d2a35;
+    width: 100vw;
+    height: 50vh;
+    padding: 0 400px;
+    color: white;
+    font-size: 1.3rem;
+}
+.description > h3{
+    padding-bottom: 80px;
+}
+
+/* --------------dark mode ---------------*/
+
+
+.darkForm{
+    display: flex;
+    align-items: center;
+}
+.darkMode{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 100px 0 0 ;
+}
+.dark{
+    background-color: #1d2a35;
+    color: white;
+}
+.white{
+    background-color: white;
+}
+.whiteBis{
+    color: white;
+}
+.black{
+    background: black;
+}
+
+label{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    display: block;
+    background: #e5e6e8;
+    border-radius: 40px;
+    box-shadow: inset 0px 5px 15px rgba(0,0,0,0,4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: 0.9s;
+}
+label:after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    background: url('../img/sun.png');
+    background-size: cover;
+    border-radius: 40px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+input{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+input:checked + label{
+    background: #385c7a;
+}
+input:checked + label:after{
+    left: 95px;
+    transform: translateX(-100%);
+    background: url('../img/moon.png'); /*linear-gradient(180deg, #777, #3a3a3a);*/
+    background-size: cover;
+    
+}
+label:active:after{
+    width: 70px;
+}
+
+
+/* --------------menu déroulant -------------*/
+.burger{
+    display: none;
+    width: 50px;
+}
+.menu-nav{
+    display: none;
+}
