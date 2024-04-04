@@ -1,0 +1,332 @@
+/* Font Advent pro */
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap');
+
+/* Font Dancing script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+a
+{
+    color: black;    
+}
+/***** Navbar*****/
+nav
+{
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 45vh;
+}
+.top_nav
+{
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.top_nav h1
+{
+    padding: 0 0 0 0.5em;
+    color: black;
+    font-family: 'dancing script', cursive;
+    font-size: 5vh;
+}
+.navbar
+{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'dancing script', cursive;
+    background-color: white;
+}
+.navLinks
+{
+    padding: 5px;
+    justify-content: center;
+    background-color: black;
+    font-size: 28px;
+    font-weight: 600;
+}
+.logo
+{
+    height: 10vh;
+    transition: transform 0.2s ease-in-out
+}
+/*.logo:hover
+{
+    transform: scale(1.05);
+}*/
+.burger
+{
+    margin-right: 15px;
+    color: black;
+    height: 4vh;
+}
+.navbar .navLinks ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 5vh;
+}
+.navbar .navLinks a 
+{
+    color: white;
+}
+.intro
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+    background-image: url(../img/intro2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.intro span
+{
+    color: white;
+    font-size: 40px;
+    font-family: 'dancing script', cursive;
+}
+.bienvenue h2{
+    font-family: 'dancing script', cursive;
+    color: white;
+    font-size: 45px;
+    text-shadow: black 1px 1px, black -1px 1px, black -1px -1px , black 1px -1px;
+    
+}
+.square,
+.square2
+{
+    position: relative;
+    width: 26em;
+    height: 17em;
+    margin: 0;
+    overflow:hidden;
+}
+.square img,
+.square2 img
+{
+    width: 38vh;
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: -8px -6px 1px #f5f6fa;
+}
+.square span,
+.square2 span
+{
+    border: 2px solid white;
+    position: absolute;
+    /*background-color: grey;*/
+    text-shadow: black 1px 1px, black -1px 1px, black -1px -1px , black 1px -1px;
+    top: 8%;
+    left: 8%;
+    background-color: rgb(255,255,255, 0.7);
+    font-size: 48px;
+}
+.square ul,
+.square2 ul
+{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 15%;
+    color: white;
+    text-shadow: black 1px 1px, black -1px 1px, black -1px -1px , black 1px -1px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.presentation
+{
+    padding: 2em;
+    height: 15em;
+}
+.promo
+{
+    padding: 2em;
+    height: 15em;
+    background-color: black;
+    color: white;
+}
+.maps
+{
+    display: flex;
+    justify-content: center;
+}
+.maps iframe
+{
+    width: 100%;
+    border: 2px solid black;
+    height: 40vh;
+}
+#contact h2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    font-family: 'dancing script', cursive;
+    font-size: 28px;
+    border-bottom: 1px solid black;
+}
+.formulaire
+{
+    padding: 1em ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input
+{
+    margin: 10px;
+    text-align: center;
+}
+textarea
+{
+    margin: 10px;
+}
+.inscription
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inscription p
+{
+    font-size: 14px;
+    padding: 1em;
+}
+.myBtn
+{
+    border: 1px solid black;
+    width: 80px;
+    text-align: center;
+}
+footer
+{
+    height: 15vh;
+    background-color: black;
+}
+.rezo 
+{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+.rezo ul 
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.rezo ul li
+{
+    justify-content: center;
+}
+.rezo a
+{
+    font-size: 1em;
+}
+.rezo span
+{
+    color: white;
+}
+.twitter
+{
+    display: flex;
+    color: white;
+}
+.fa-envelope
+{
+    padding: 0 20px;
+    color: white;
+}
+.fa-facebook
+{
+    padding: 0 20px;
+    color: white;
+}
+.fa-twitter
+{
+    padding: 0 20px;
+    color: white;
+}
+.fa-instagram
+{
+    padding: 0 20px;
+    color: white;
+}
+.instagram
+{
+    display: flex;
+    color: white;
+}
+.twitter
+{
+    display: flex;
+    color: white;
+}
+
+
+/*****  -----  *****/
+
+
+
+/***** Responsive *****/
+@media screen and (max-width: 800px)
+{
+    
+}
+
+@media screen and (max-width: 800px)
+{
+    .navLinks
+    {
+       display: none;
+    }
+    .rezo span
+    {
+        display: none;
+    }
+}
+@media screen and (min-width: 800px)
+{
+    .burger
+    {
+        display: none;
+    }
+    .maps iframe
+    {
+        width: 75%;
+        height: 45vh;
+    }
+}
+@media screen and (max-width: 1400px)
+{
+     .login
+    {
+        display: none;
+    }
+}
